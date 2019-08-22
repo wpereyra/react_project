@@ -28,3 +28,55 @@
     display: flex;
     flex-direction: row;
 }
+
+.button {
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #ccc;
+}
+
+.button-azul {
+    height: 60px;
+    width: 60px;
+    margin: 1px;    
+    border-radius: 3px;
+    background-color: cornflowerblue;   
+    font-size: 16px;
+}
+.button-azul:hover {
+    background-color: royalblue;
+}
+
+.button-rojo {
+    height: 60px;
+    width: 60px;
+    margin: 1px;    
+    border-radius: 3px;
+    background-color: lightcoral;  
+    font-size: 16px; 
+}
+.button-rojo:hover {
+    background-color: rgb(233, 92, 92);
+}
+
+.calculadora-display {
+    width: 98%;
+    height: 35px;
+    margin-top: 10px;
+    font-size:14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 3px
+}
+
+.calculadora {
+    margin-top: 25px;
+}
+
+

@@ -11,7 +11,6 @@ class Reloj extends Component {
             pausado: false,
         }
 
-        this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick() {
@@ -41,7 +40,7 @@ class Reloj extends Component {
         return(
             <React.Fragment>
                 <h3>{ `Son las ${ this.state.hora.format('HH:mm:ss') } hs.` }</h3>
-                <button onClick={ this.handleClick }>{ this.state.pausado ? 'Reanudar' : 'Pausar' }</button>
+                <button onClick={ () => (this.handleClick()) }>{ this.state.pausado ? 'Reanudar' : 'Pausar' }</button>
         </React.Fragment> );
     }
 }
